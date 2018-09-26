@@ -36,8 +36,9 @@ end
   end 
   
   def sort 
-    @roster.values.sort 
-    return @roster
+    @roster.values.sort do |a, b|
+    a <=> b
+end
   end
   
 end 
