@@ -32,13 +32,11 @@ end
   end 
   
   def grade(grade)
-    return @roster.values_at(grade) 
+     @roster.values(grade) 
   end 
   
   def sort(grade)
-    @roster.grade.values.sort do |a, b|
-    a <=> b
-end
+    @roster.grade.values.sort 
   end
   
 end 
