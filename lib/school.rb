@@ -35,4 +35,7 @@ end
     return @roster.values_at(grade) 
   end 
   
+  def sort 
+    @roster.values
+  
 end 
