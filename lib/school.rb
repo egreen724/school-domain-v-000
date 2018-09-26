@@ -36,7 +36,7 @@ end
   end 
   
   def sort(grade)
-    @roster.grade.sort do |a, b|
+    @roster.grade.values.sort do |a, b|
     a <=> b
 end
   end
