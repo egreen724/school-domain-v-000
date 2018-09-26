@@ -29,4 +29,8 @@ end
     @roster[grade] << student_name
   end 
   
+  def grade(grade)
+    return GRADE 
+  end 
+  
 end 
