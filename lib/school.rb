@@ -36,6 +36,7 @@ end
   end 
   
   def sort 
-    @roster.values
+    @roster.values.sort 
+  end
   
 end 
