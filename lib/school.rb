@@ -32,7 +32,7 @@ end
   end 
   
   def grade(grade)
-    return grade.values 
+    return @roster.values_at(grade) 
   end 
   
 end 
