@@ -32,7 +32,7 @@ end
   end 
   
   def grade(grade)
-     @roster.values(grade) 
+     grade.values
   end 
   
   def sort(grade)
