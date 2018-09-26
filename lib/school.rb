@@ -6,8 +6,6 @@ class School
     @roster = roster
 end 
 
-GRADE= []
-
 def name=(name)
   @name = name
 end 
@@ -34,7 +32,7 @@ end
   end 
   
   def grade(grade)
-    return GRADE 
+    return grade.values 
   end 
   
 end 
