@@ -36,7 +36,7 @@ end
   end 
   
   def sort
-    @roster.grade.each do |grade_names|
+    @roster.each do |grade, grade_names|
       grade_names.sort
     end
     return @roster
